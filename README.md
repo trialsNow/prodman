@@ -1,7 +1,5 @@
 ## Instructions
 
-This part of the interview process allows us to learn more about your software engineering and web development skills. Below is a description of a CRUD API that manages products, keeps track of their pricing and their view counts. You are given a boilerplate application with parts that are incomplete or not working as expected. The task is to add features to the application, adapt some parts of it and come prepared at the next interview with suggestions on how to improve it.
-
 The boilerplate application has some basic components set up: a Product model with a database connection and an empty controller. We would like you to do the following:
 - Add an API to get a single product
 - Finish the implementation for fetching the currency conversion
