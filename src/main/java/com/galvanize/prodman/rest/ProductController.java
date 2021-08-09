@@ -32,7 +32,6 @@ public class ProductController {
     public Mono<ProductDTO> getProductDetailsByExternalId(@PathVariable @NotEmpty String productId,
                                                                        @RequestParam(name = "currency", required = false)
                                                                          String currency) {
-        Mono<ProductDTO> resp =  productService.getProductAsyncWeb(productId, currency);
-        return resp;
+        return productService.getProductAsyncWeb(productId, currency);
     }
 }
